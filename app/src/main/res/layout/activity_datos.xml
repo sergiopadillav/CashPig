@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Datos">
+
+    <ImageView android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:src="@drawable/fondodatos"
+               android:scaleType="centerCrop"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Primero hay que saber con cuanto dinero dispones.."
+              android:textSize="18sp"
+              android:textColor="@color/white"
+              android:layout_marginRight="15dp"
+              android:layout_marginLeft="15dp"
+              android:layout_marginTop="40dp"
+              android:gravity="center"
+              android:id="@+id/texto1"/>
+
+    <ScrollView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/texto1"
+                android:id="@+id/scrollView"
+                android:layout_marginTop="30dp">
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical"
+                      android:background="@drawable/rectanguloblanco"
+                      android:layout_marginStart="30dp"
+                      android:layout_marginEnd="30dp">
+
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="Con cuando dinero cuentas en estos momentos"
+                      android:layout_marginTop="40sp"
+                      android:textSize="18sp"
+                      android:textColor="@color/white"
+                      android:layout_below="@+id/texto1"
+                      android:gravity="center"
+                      android:id="@+id/texto2"/>
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:background="@drawable/marcoblanco"
+                    android:textSize="14sp"
+                    android:inputType="numberDecimal"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_below="@id/texto4"
+                    android:id="@+id/et_total"/>
+
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:textColor="@color/white"
+                    android:text="CONTINIAR"
+                    android:textStyle="normal"
+                    android:background="@drawable/btn_login"
+                    android:layout_gravity="center"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:id="@+id/btn_continuar"
+            />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

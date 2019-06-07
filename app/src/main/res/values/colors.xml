@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#442c2e</color>
+    <color name="colorPrimaryDark">#1f0103</color>
+    <color name="colorPrimaryLight">#705557</color>
+    <color name="colorSecondary">#fedbd0</color>
+    <color name="colorSecondaryDark">#caa99f</color>
+    <color name="colorSecondaryLight">#ffffff</color>
+    <color name="colorAccent">#caa99f</color>
+    <color name="white">#fff</color>
+
+    <color name="graficaAlimentacion">#ff7043</color>
+    <color name="graficaOcio">#ffca28</color>
+    <color name="graficaTelefonia">#9DCB65</color>
+    <color name="graficaGym">	#43A5F6</color>
+    <color name="graficaSalud">#ab47bc</color>
+    <color name="graficaEducacion">#ef5350</color>
+    <color name="graficaHogar">#77909C</color>
+    <color name="graficaTransporte">#6ABB68</color>
+    <color name="graficaRopa">#ffee58</color>
+    <color name="graficaOtrosGastos">#bdbdbd</color>
+</resources>

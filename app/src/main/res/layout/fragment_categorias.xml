@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".Categorias">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+                  android:id="@+id/grafica">
+
+        <com.github.mikephil.charting.charts.PieChart
+                android:layout_width="match_parent"
+                android:layout_height="438dp"
+                android:id="@+id/graficaPastel"
+                android:layout_marginTop="60dp"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:layout_gravity="bottom"
+                  android:layout_marginBottom="30dp">
+
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal">
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:text="Alimentacion"
+                      android:textSize="20dp"
+                      android:layout_marginLeft="15dp"
+                      android:textStyle="bold"
+                      android:layout_weight="1"
+                      android:gravity="center"
+                      android:textColor="@color/graficaAlimentacion"/>
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:text="Ocio"
+                      android:textSize="20dp"
+                      android:layout_marginLeft="15dp"
+                      android:textStyle="bold"
+                      android:layout_weight="1"
+                      android:gravity="center"
+                      android:textColor="@color/graficaOcio"/>
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:text="Telefonia"
+                      android:textSize="20dp"
+                      android:layout_marginLeft="15dp"
+                      android:textStyle="bold"
+                      android:layout_weight="1"
+                      android:gravity="center"
+                      android:textColor="@color/graficaTelefonia"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+                      android:gravity="center"
+                      android:layout_alignParentBottom="true">
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:text="Gym"
+                      android:textSize="20dp"
+                      android:layout_marginLeft="15dp"
+                      android:textStyle="bold"
+                      android:layout_weight="1"
+                      android:gravity="center"
+                      android:textColor="@color/graficaGym"/>
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:text="Salud"
+                      android:textSize="20dp"
+                      android:layout_marginLeft="15dp"
+                      android:textStyle="bold"
+                      android:layout_weight="1"
+                      android:gravity="center"
+                      android:textColor="@color/graficaSalud"/>
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:text="Educacion"
+                      android:textSize="20dp"
+                      android:layout_marginLeft="15dp"
+                      android:textStyle="bold"
+                      android:layout_weight="1"
+                      android:gravity="center"
+                      android:textColor="@color/graficaEducacion"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal">
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:text="Hogar"
+                      android:textSize="20dp"
+                      android:layout_marginLeft="15dp"
+                      android:textStyle="bold"
+                      android:gravity="center"
+                      android:layout_weight="1"
+                      android:textColor="@color/graficaHogar"/>
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:text="Transporte"
+                      android:textSize="20dp"
+                      android:layout_marginLeft="15dp"
+                      android:textStyle="bold"
+                      android:gravity="center"
+                      android:layout_weight="1"
+                      android:textColor="@color/graficaTransporte" />
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:text="Ropa"
+                      android:textSize="20dp"
+                      android:layout_marginLeft="15dp"
+                      android:textStyle="bold"
+                      android:gravity="center"
+                      android:layout_weight="1"
+                      android:textColor="@color/graficaRopa"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AgregarIngreso">
+
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/fondoingresos">
+
+
+        <ScrollView android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/scrollView"
+                    android:layout_marginTop="60dp">
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:orientation="vertical"
+                          android:background="@drawable/rectanguloblanco"
+                          android:layout_marginStart="30dp"
+                          android:layout_marginEnd="30dp">
+
+                <TextView android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="Ingreso"
+                          android:layout_marginTop="30sp"
+                          android:textSize="20sp"
+                          android:textColor="@color/white"
+                          android:layout_below="@+id/texto1"
+                          android:gravity="center"
+                          android:textStyle=""
+                          android:id="@+id/texto2"/>
+
+                <AutoCompleteTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:background="@drawable/marcoblanco"
+                        android:textSize="14sp"
+                        android:layout_below="@id/texto2"
+                        android:inputType="numberDecimal"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/et_ingreso"/>
+
+                <TextView android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="Fecha"
+                          android:layout_marginTop="20sp"
+                          android:textSize="20sp"
+                          android:textColor="@color/white"
+                          android:gravity="center"/>
+
+                <LinearLayout android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:orientation="horizontal"
+                              android:layout_marginTop="10sp">
+
+                    <Button
+                            android:layout_width="90sp"
+                            android:layout_height="40sp"
+                            android:text="pick"
+                            android:textSize="18sp"
+                            android:background="@drawable/btn_fecha"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_marginLeft="40sp"
+                            android:textColor="@color/colorPrimary"
+                            android:id="@+id/btn_fecha_ingreso"
+                    />
+
+
+
+                    <TextView
+                            android:layout_width="130sp"
+                            android:layout_height="35dp"
+                            android:background="@drawable/marcoblanco"
+                            android:textSize="14sp"
+                            android:inputType="numberDecimal"
+                            android:layout_marginLeft="15dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:id="@+id/txt_fecha_ingreso"
+                    />
+
+                </LinearLayout>
+
+
+
+
+                <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:textColor="@color/white"
+                        android:text="CONTINUAR"
+                        android:textStyle="normal"
+                        android:background="@drawable/btn_login"
+                        android:layout_gravity="center"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginBottom="20dp"
+                        android:textSize="20sp"
+                        android:id="@+id/btn_continuar_ingreso"
+                />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

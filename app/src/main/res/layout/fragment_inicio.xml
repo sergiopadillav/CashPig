@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".Inicio">
+
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorSecondaryLight"
+    >
+
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical">
+
+
+
+            <TextView android:layout_width="135dp"
+                      android:layout_height="80dp"
+                      android:text="$"
+                      android:textSize="26dp"
+                      android:background="@color/colorPrimary"
+                      android:gravity="center"
+                      android:textColor="@color/white"
+                      android:id="@+id/capital"
+                      android:layout_marginTop="35dp"
+            />
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+                      android:layout_marginLeft="135dp"
+                      android:background="@color/colorSecondaryLight"
+                      android:id="@+id/linear1"
+        android:layout_marginTop="10dp">
+
+            <Button android:layout_width="113dp"
+                    android:layout_height="125dp"
+                    android:background="@drawable/puercosubir"
+                    android:id="@+id/btn_agregar_ingreso"/>
+
+
+            <Button android:layout_width="113dp"
+                    android:layout_height="125dp"
+                    android:background="@drawable/puercobajar"
+                    android:id="@+id/btn_agregar_gasto"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</FrameLayout>

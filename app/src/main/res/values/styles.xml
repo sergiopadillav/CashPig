@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <string-array name="categorias">
+        <item>Alimentacion</item>
+        <item>Ocio</item>
+        <item>Telefonia</item>
+        <item>Gym</item>
+        <item>Salud</item>
+        <item>Educacion</item>
+        <item>Hogar</item>
+        <item>Transporte</item>
+        <item>Ropa</item>
+        <item>Otros Gastos</item>
+    </string-array>
+
+</resources>
